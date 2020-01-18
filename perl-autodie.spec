@@ -1,6 +1,6 @@
 Name:           perl-autodie
 Version:        2.16
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Replace functions with ones that succeed or die
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -77,6 +77,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.16-2
+- Mass rebuild 2013-12-27
+
 * Wed Mar 06 2013 Petr Pisar <ppisar@redhat.com> - 2.16-1
 - 2.16 bump
 
